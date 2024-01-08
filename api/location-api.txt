@@ -1,0 +1,13 @@
+>> location api
+
+location.assign('link');
+set link to current tap (can back to previous)
+
+
+location.replace('link')
+replace current link to written link (can't back to previous)
+
+
+
+location.href = 'link';
+redirect to written link (can back to previous)

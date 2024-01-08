@@ -1,0 +1,16 @@
+i++ means execute first and then increase
+++i means increase first and then execute.
+
+setTimeout
+A time event function used to call another function after certain time period and execute the function only once.
+
+to stop timeout, use clearTimeout(id);
+
+
+
+
+setInterval
+A time event function used to call another function after certain time period. Execution of the function occurs continuously according to the specified time interval. Here, the interval works like a gap between the executions.
+
+
+to stop inteval, use clearInterval(id);

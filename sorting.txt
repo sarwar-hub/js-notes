@@ -1,0 +1,13 @@
+
+let sorted = []; // containing sorted data        
+
+
+	// get n put sorted elements in a global array 
+        const sortBy = (a,b) => {
+            const dateA = new Date(a.published_in);
+            const dateB = new Date(b.published_in);
+            if (dateA > dateB ) return 1;
+            else if (dateA < dateB ) return -1;
+            return 0;
+        }
+        sorted = tools.sort(sortBy); // tools is array of objects (main data)

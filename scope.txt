@@ -1,0 +1,11 @@
+// scope : where usable, where not.
+
+1. when var, let, const are in a function, they not usable outside of the function.
+
+2. when let, const are in if/else/loop, they are not usable outside of any but, var is usable outside of if/else/loop.
+
+3. a regular function is callable any where but, its not callable when the function is puted in variable using let/const. when a function puted in variable using var, if called the function(set in var), it will act like a variable and the variable is not defined.
+
+
+
+// hoisting : if a variable is usable any where(outside of the scope/use before initialigation) then the variable is hoisted.

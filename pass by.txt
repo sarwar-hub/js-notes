@@ -1,0 +1,34 @@
+1. pass by value (premititve type)
+
+when a value passed as a functions argument and change the value of this(same argument) parameter in the function(inside), it will work only in function scope, not in outer scope.
+
+
+function add(x) {
+	x = 7; // here x is 7 (changed the value of 'x')
+}
+
+let x = 5; // here x is 5 (not changed by inner defination)
+add(x);
+
+
+
+
+
+
+
+
+
+
+2. pass by refference (non-premitive)
+
+when a non-primitive(array/object) value is passed as a functions argument and change any value of this(same argument) parameter in the function(inside), it will work in both scope inner and outer.
+
+
+
+function add(nums){
+	nums = [4, 5, 6]; // here changed nums(numbers) value
+}
+
+let numbers = [1, 2, 3]; // also changed numbers value by inner defination (cause: same non-premitive values are set in one refferece)
+
+add(numbers);

@@ -1,0 +1,32 @@
+inspect > application > localstorage
+
+set an item to browsers local storage
+localStorage.setItem('key', 'value');
+
+
+get an item from browsers local storage
+localStorage.getItem('key');
+
+
+remove an item from browsers local storage
+localStorage.removeItem('key');
+
+
+clear all items from browsers local storage
+localStorage.clear;
+
+**all data will save in storage as string
+
+
+
+
+>> set an object item to browsers localstorage
+
+to set an object item, firstly have to convert it using JSON.stringify(objectName).
+
+
+get object item from localstorage by convert it using JSON.parse('key').
+
+
+
+

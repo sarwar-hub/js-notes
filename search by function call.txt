@@ -1,0 +1,1 @@
+button e click event listener add na koira er kaj ta ekta function er vitore koira oi function ta onclick e call kore dite hobe. function er vitore input theke value get korte hobe & oi value main function er argument hishebe pass korte hobe.

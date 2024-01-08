@@ -1,0 +1,19 @@
+1. When a variable declared but not defined.
+2. not defined return value when a output is expected.
+3. Function with no return.
+4. non passed parameters value. (when they have not a default value)
+	function mFunction(a, b){
+		return a + b;
+	}
+	
+	myFunction(2);
+
+5. when you access a key of object that is dosen't exists.
+6. when you try to access not existed array index.
+7. delete an element from an array.
+8. type of undefined is undefined.
+
+
+
+// use 'null' when you tell that the value doesn't set.
+1. tyoe of null is object.

@@ -1,0 +1,1 @@
+${details.integrations ? details.integrations.map(i => `<li>${i}</li>`).join("\n") : 'No data found'} 

@@ -1,0 +1,2 @@
+to refresh page by function call
+call the function to a button as its onclick value.

@@ -1,0 +1,10 @@
+add loader
+-------------
+
+
+1. make a function with a parameter and make if else condition that if parameter value is true, then remove 'hidden' class from the element where the loader is added.
+
+2. call function where event is started (inside onclick function, in button event listener) and pass true parameter to show the loader.
+
+2. same as #2, call function at bottom where an event(loading) finished and pass false to hide the loader.
+ 

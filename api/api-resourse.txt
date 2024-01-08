@@ -1,0 +1,9 @@
+https://jsonplaceholder.typicode.com/
+
+https://api.kanye.rest/
+
+https://randomuser.me/
+
+https://restcountries.com/
+
+https://www.themealdb.com/api.php

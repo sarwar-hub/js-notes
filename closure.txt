@@ -1,0 +1,20 @@
+// closure
+when a function is defined inside of another function, the accassing ability will be create betweent two functions variables. inside function can access the outside functions variable. its called closure.
+
+
+
+// exmaple
+function mainCounter() {
+	const count = 0;
+	return function(){
+		return count++; // can access outer variable
+	}
+}
+
+
+
+mainCounter() // it will show an anonymus function
+const counter1 = mainCounter() // now counter1 containing inner function
+const counter2 = mainCounter() // can define many function using 'mainCounter()' as that
+
+counter1() // now it will show inner functions return value and each made functions output will be separate.

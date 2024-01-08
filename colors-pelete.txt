@@ -1,0 +1,18 @@
+dark palate - 1
+
+Black bg - #212529
+description light - #6c757d
+secondary yellow - #ffc107
+--------------------------------------
+dark palate - 2
+
+Black bg - #212529
+description light - #7f8fa6
+secondary h blue - #0dcaf0
+--------------------------------------
+all dark
+
+light dark = #2A303C
+medium dark = #20252E
+deep dark = #111318
+gray text = #A6ADBB

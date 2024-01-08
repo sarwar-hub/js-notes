@@ -1,0 +1,186 @@
+/*-------------------------------
+    JavaScript - What to know 
+------------------------------*/
+
+
+// Variable and Operation
+/**
+ * Declare a variable
+ * Data types ( used in a variable )
+ * Check data types of a variable
+ * Change a variable value
+ * Oparetors and their operations
+ * Add more to a vriable value
+ * Shorthand operation
+ * Increement and Decreement of a value
+ * Concate string type variable
+ * Convert string to number ( intiger and float )
+ * Set a limit of after decimal count.
+ * Compare betweet variable
+ * Get the type of variable (typeof variable_name )
+*/
+
+
+
+// Array
+/**
+ * Declare an array
+ * Find index of array elements ( indexOf(element) )
+ * Get array length (array.length)
+ * Get values of an array ( array_name[index] )
+ * Set values of an array ( array_name[index] = 'new name' )
+ * Add and Remove last elemet from an array (push and pop)
+ * Add and Remove first elemet from an array (shift and unshift)
+ * To get type of an array use  ( 'Array.isArray(array_name)' )
+ * 
+*/
+
+
+
+// String & array
+/**
+ * Slice (array.slice(1,3) ) - will get 1 to 3 of index and not changes original
+ * Splice (array.splice(2,5) ) - starts from index 2 and cut 5 element from an array (also inject from 3rd parameter)
+ * Split (string.split(',') ) - will separate letters by a coma 
+ * Concate arrays ( array1.concat(array2) )
+ * element existing check (array.includes(element_name) )
+ * Remove duplicates from array - if(uniqueNames.include(name) == false) {uniqueNames.push(name);}
+ * 
+*/
+
+
+
+
+
+
+// Conditions
+/**
+ * Normal condition - if, else
+ * Multistage condition - else if
+ * Multiple condition - &&, ||
+ * Nested condition
+ * make a condition that 
+    1. show numbers 1-50,
+    2. show 'foo' if the number divisible by 3,
+    3. show 'bar' if the number divisible by 5,
+    4. show 'foobar' if the number divisible by both 3 nd 5,
+ * Find min/max value of object property value from inside of an array
+*/
+
+
+
+// loop
+/**
+ * While loop
+ * Show even and odd numbers 0 - 10 by while loop
+ * Show even and odd numbers 0 - 10 by for loop
+ * check even or not
+ * Get array elements by for loop
+ * Break in loop
+ * Continue in loop
+ * Loop in reverse way
+ * For-of  loop
+*/
+
+
+
+
+// Function
+/**
+ * Declare and call a function
+ * Function with parameter
+ * 
+*/
+
+
+
+// Object
+/**
+ * Delare object
+ * Get and Set single property value of object
+ * Get property names as an array from object
+ * Get property values as an array from object
+ * Get property and value by looping ( automatic, dynamic )
+*/
+
+
+// Practice - Function
+/**
+ * Make a function of Covertion inch to feet
+ * Make a function of Covertion miles to km
+ * Make a function to check input mumber is even or not
+ * Make a function that can show sum of all element of an array
+ * Fnction about finding odd numbers from an array
+ * Function to get factorial of a number
+ * Function about finding leap year from an array
+ * Function about finding max value of object property inside of an array
+ * Function about Calculate cart total
+ * Function about discount on purches quantity
+ * Handle unexpected value of parameter
+ * Function about search an element from an array
+*/
+
+
+
+// Recursing function
+/**
+ * Calling a function inside same function
+ * 
+*/
+
+
+
+
+
+// Math
+/**
+ * Make a function that will return max value from two
+ * Make a function that will return min value from three
+ * Function that will return max value from array
+ * 
+*/
+
+
+
+
+
+// Math - Note
+/**
+ * to show a limited area, multiply 'Math.random()' by limit number ( Math.random()*6 )
+ * to show rounded figur, set value in 'Math.rounded()' ( Math.rounded(Math.random()*6) )
+ * you can set a loop to showing numbers ( how many time random value will show in a time )
+*/
+
+
+// DOM
+/**
+ * getElementById() returns a single value
+ * getElementsByClassName() returns elements in an array-like-object (though its empty)
+ * In query selector you have to define id or class prefixes("#" , '.')
+ * p.setAttribute('name', 'value'),  input.type = text
+ * p.ClassList() - p.ClassList.add(''), p.ClassList.remove('')
+ * To add element -
+    1. getElement (where to add element - take in variable)
+    2. createElement (create element in a vairable)
+    3. appendChild (set element in place)
+*/
+
+// Event
+/**
+ * onclick
+ * onclick function
+ * Onclick in javascript by id
+ * Event by addEventListener
+ * Commenting system by addEventListener
+ * Delete option by addEventListener
+*/
+
+
+
+
+
+
+
+
+
+

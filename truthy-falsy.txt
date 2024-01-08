@@ -1,0 +1,15 @@
+Truthy values:
+1. true
+2. +ve or -ve numbers except 0
+3. string, except empty string
+4. object, even empty.
+5. array, even empty.
+
+
+
+Falsy values:
+1. false
+2. 0
+3. empty string
+4. undefined
+5. null

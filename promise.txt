@@ -1,0 +1,11 @@
+const handle = new Promise ((resolve, reject) => {
+	resolve('data');
+	reject('This is the error');
+})
+
+handle
+	.then(data => console.log(data));
+	.catch(error => console.log(error));
+
+
+.then recieve the 'resolve' responce and .catch recieve the 'reject' response. 

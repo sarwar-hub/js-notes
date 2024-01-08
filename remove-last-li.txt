@@ -1,0 +1,5 @@
+items = [];
+function remove() {
+	const child = document.querySelector('li:last-child');
+	items.removeChild(child);
+}

@@ -1,0 +1,16 @@
+let value = true;
+
+value && 'hello world';
+
+N: if the value is true then 'hello world' will execute. if false, it will not execute.
+
+theme: && means all conditions should be true, if one(serially) is true then go for next. Here the value is true so that go for next. if the value is false, then it will not go for next because no need to check next that all conditions should be true.
+
+
+
+** if you need to use it based on false use ||.
+let value2 = false
+
+value2 || 'Hello world';
+
+N: if the value2 is false then execute 'Hello world'.

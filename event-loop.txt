@@ -1,0 +1,2 @@
+Event loop executes js codes with maintaining a sequential loop
+If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack.
